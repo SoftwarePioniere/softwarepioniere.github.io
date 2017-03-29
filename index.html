@@ -1,2 +1,197 @@
-"Hello World" 
-test
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Codeon - Agency</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--bootstrap css-->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+        <!--custom css-->
+        <style type="text/css">
+           
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                color: #333;
+                background-color: #fff;
+                -webkit-font-smoothing: antialiased;
+            }
+            /*typography bootstrap overrides*/
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: 500;
+                line-height: 1;
+            }
+            .header{
+                padding: 50px 0;
+                background-color: #eff2f3;
+                margin-bottom: 50px;
+            }
+            .header h1{
+                margin-bottom: 15px;
+                color:#000;
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .header h4{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color:#333;
+            }
+            .demo-content h4{
+                text-transform: uppercase;
+                position: relative;
+                margin-bottom: 50px;
+            }
+            .demos-inner a{
+                text-decoration: none;
+                display: block;
+                padding: 20px;
+                background-color: #fff;
+                transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                margin-bottom: 30px;
+                position: relative;
+                border: 1px dashed transparent;
+            }
+            .label-new{
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top:0;
+                background-color:#00A8FF;
+                padding: 3px 5px;
+                color:#fff !important;
+                font-size:13px!important;
+                margin: 0px !important;
+            }
+            .demos-inner a:hover{
+                   border-color:  #00A8FF;
+            }
+            .demos-inner a:hover, .demos-inner:focus{
+                text-decoration: none;
+            }
+            .demos-inner span{
+                display: block;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+                margin-top: 20px;
+                color:#777;
+            }
+            .btn-purchase{
+                padding: 15px 50px;
+                color:#000;
+                background-color: #f5f5f5;
+                margin: 40px 0;
+                text-transform: uppercase;
+                display: inline-block;
+                font-weight: 600;
+                  box-shadow: 4px 8px 13px -9px rgba(0,0,0,0.3);
+                  -webkit-box-shadow: 4px 8px 13px -9px rgba(0,0,0,0.3);
+            }
+            .footer span{
+                display: block;
+                font-weight: 600;
+                text-transform: uppercase;
+                color:#999;
+                font-size: 12px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="container text-center">
+                <h1>Codeon</h1>
+                <h4>Clean, Awesome, Multipurpose Responsive<br> One Page HTML5 Template</h4>
+            </div>
+        </div>
+        <div class="demo-content">
+            <div class="container text-center">
+                   <h4>Choose your Demo</h4>
+                  
+            </div>
+            
+            <div class="demos-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <a href="demo-default.html" target="_blank">
+                                <img src="img/demo-img/default.png" class="img-responsive" alt="">
+                                <span>Slider Revolution</span>
+                            </a>
+                        </div>
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="fullscreen-parallax-bg-demo.html" target="_blank">
+                                <img src="img/demo-img/parallax.png" class="img-responsive" alt="">
+                                <span>Parallax Slider</span>
+                            </a>
+                        </div>
+                           <div class="col-sm-4 text-center">
+                            <a href="demo-video-bg.html" target="_blank">
+                                <img src="img/demo-img/youtube.png" class="img-responsive" alt="">
+                                <span>You-tube Video background</span>
+                            </a>
+                        </div>
+                    </div>
+                   
+                      <div class="row">
+                     
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="transparent-header-demo.html" target="_blank">
+                                <img src="img/demo-img/trans-header.png" class="img-responsive" alt="">
+                                <span>Transparent Header</span>
+                            </a>
+                        </div>
+                        
+                          <div class="col-sm-4 text-center">
+                            <a href="fullscreen-nav.html" target="_blank">
+                                <img src="img/demo-img/full-menu.png" class="img-responsive" alt="">
+                                <span>Full screen navigation</span>
+                            </a>
+                        </div>
+                           <div class="col-sm-4 text-center">
+                            <a href="soon.html" target="_blank">
+                                <img src="img/demo-img/coming.png" class="img-responsive" alt="">
+                                <span>Coming soon</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="#">
+                                <img src="img/demo-img/vsoon.png" class="img-responsive" alt="">
+                                <span>very soon</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+         <div class="container text-center">
+                    <a href="#" class="btn btn-purchase">Buy Codeon Now</a>
+                </div>
+        <div class="container footer text-center">
+            <span>&copy; 2017. Powered by bootstrap. Designed by Design_mylife </span>
+        </div>
+    </body>
+</html>
