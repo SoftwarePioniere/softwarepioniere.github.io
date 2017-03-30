@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Codeon - agency</title>
+        <title>Software Pioniere</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -99,12 +99,12 @@
         <script src="js/pace.min.js" type="text/javascript"></script>
         <!--countdown coming soon-->
         <script src="js/jquery.countdown.js" type="text/javascript"></script>
+        <script src="js/moment-with-locales.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(function() {
-                //var austDay = new Date();
-                var austDay = new Date('2017-07-01 00:00:00');
-                //austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+                var austDay = moment('2017-07-01 00:00:00', 'YYYY-MM-DD HH:mm:ss').toDate();
                 $('#defaultCountdown').countdown({until: austDay});
+
                 $('#year').text(austDay.getFullYear());
             });
         </script>
