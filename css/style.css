@@ -114,7 +114,7 @@ a:focus {
 
 .section-heading .section-title {
   color: #000;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .section-heading .small span {
@@ -127,7 +127,7 @@ a:focus {
 .section-heading .large {
   font-weight: 500;
   font-size: 35px;
-  text-transform: capitalize;
+  /*text-transform: none;*/
 }
 
 /*******************
@@ -143,7 +143,7 @@ page-head section
 
 #page-head-bg h1 {
   margin: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #fff;
   font-weight: 400;
   font-size: 31px;
@@ -1447,7 +1447,7 @@ our work section
 
 .contact-sec-1 h4 {
   margin-bottom: 30px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*//* TZ */
   font-size: 20px;
 }
 
@@ -1468,6 +1468,15 @@ our work section
   font-size: 18px;
   color: #fff;
 }
+
+.contact-col a{
+  color: #fff;
+}
+
+.contact-col a:hover{
+  color: #9eca45;
+}
+
 
 /***footer*/
 #footer {
