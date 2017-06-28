@@ -6,10 +6,7 @@
 
 
 .person img{
-	border-top-left-radius: 85%;
-	border-top-right-radius: 25%;
-	border-bottom-left-radius: 25%;
-	border-bottom-right-radius: 85%;
+	border-radius: 5% 50% 50% 5%;
 }
 
 .background-strategie{
