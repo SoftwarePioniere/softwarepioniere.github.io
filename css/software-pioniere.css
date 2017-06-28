@@ -7,6 +7,7 @@
 
 .person img{
 	border-radius: 5% 50% 50% 5%;
+	width: 14em;
 }
 
 .background-strategie{
@@ -29,4 +30,12 @@
 
 .social-colored li a i.icon-github {
 	background-color: #333;
+}
+
+.technologie div {
+	height: auto;
+	vertical-align: bottom;
+}
+.technologie img{
+	padding:5px;
 }
