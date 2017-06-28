@@ -11,3 +11,15 @@
 	border-bottom-left-radius: 25%;
 	border-bottom-right-radius: 85%;
 }
+
+.background-strategie{
+	background-image: url('../img/bg-1.jpg');
+}
+
+.background-newsletter{
+	background-image: url('../img/typing-cover.jpg');
+}
+
+.wrapper h2{
+	display: inline;
+}
