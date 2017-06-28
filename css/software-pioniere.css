@@ -23,3 +23,13 @@
 .wrapper h2{
 	display: inline;
 }
+
+/* Social Button */
+.social-colored li a i.icon-xing {
+	background-color: #026466;
+	/*color: #cfdc00;*/
+}
+
+.social-colored li a i.icon-github {
+	background-color: #333;
+}
