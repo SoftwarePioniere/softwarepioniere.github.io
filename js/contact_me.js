@@ -69,11 +69,18 @@ $(function () {
             // get values from FORM
             var email = $("input#subscribe-email").val();
             $.ajax({
-                url: "http://softwarepioniere.us15.list-manage.com/subscribe/post?u=73a36ff784828d42a0acf27e0&amp;id=90389308b6",
+
+                //url: "http://softwarepioniere.us15.list-manage.com/subscribe/post?u=73a36ff784828d42a0acf27e0&amp;id=90389308b6",
+                url: "https://us15.api.mailchimp.com//3.0/lists/90389308b6/members/",
                 method: "POST",
                 dataType: "json",
                 data: {
-                    email: email
+                    "email_address": email,
+                    "status": "pending",
+                    "merge_fields": {
+                        "FNAME": "Urist",
+                        "LNAME": "McVankab"
+                    }
                 },
                 cache: false,
                 success: function () {
