@@ -71,7 +71,7 @@ $(function () {
             $.ajax({
 
                 //url: "http://softwarepioniere.us15.list-manage.com/subscribe/post?u=73a36ff784828d42a0acf27e0&amp;id=90389308b6",
-                url: "https://softwarepioniere.us15.api.mailchimp.com//3.0/lists/90389308b6/members/",
+                url: "https://softwarepioniere.us15.api.mailchimp.com/3.0/lists/90389308b6/members/",
                 method: "POST",
                 dataType: "json",
                 data: {
