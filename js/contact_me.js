@@ -1,6 +1,7 @@
 $(function () {
 
-    $("input,textarea").jqBootstrapValidation({
+    // $("input,textarea").jqBootstrapValidation({
+    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function ($form, event, errors) {
             // additional error messages or events
@@ -50,6 +51,53 @@ $(function () {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                },
+            })
+        },
+        filter: function () {
+            return $(this).is(":visible");
+        },
+    });
+
+    $("#mc-embedded-subscribe-form input,#mc-embedded-subscribe-form textarea").jqBootstrapValidation({
+        preventSubmit: true,
+        submitError: function ($form, event, errors) {
+            // additional error messages or events
+        },
+        submitSuccess: function ($form, event) {
+            event.preventDefault(); // prevent default submit behaviour
+            // get values from FORM
+            var email = $("input#subscribe-email").val();
+            $.ajax({
+                url: "http://softwarepioniere.us15.list-manage.com/subscribe/post?u=73a36ff784828d42a0acf27e0&amp;id=90389308b6",
+                method: "POST",
+                dataType: "json",
+                data: {
+                    email: email
+                },
+                cache: false,
+                success: function () {
+                    // Success message
+                    $('#success-newsletter').html("<div class='alert alert-success'>");
+                    $('#success-newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success-newsletter > .alert-success')
+                        .append("<strong>Ihre E-Mail Adresse wurde erfolgreich für unseren Newsletter eingetragen.</strong>");
+                    $('#success-newsletter > .alert-success')
+                        .append('</div>');
+
+                    //clear all fields
+                    $('#mc-embedded-subscribe-form').trigger("reset");
+                },
+                error: function () {
+                    // Fail message
+                    $('#success-newsletter').html("<div class='alert alert-danger'>");
+                    $('#success-newsletter > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success-newsletter > .alert-danger').append("<strong>Ihre Eintragung zum Newsletter konnte nicht durchgeführt werden. Probieren Sie es bitte später noch einmal.</strong>");
+                    $('#success-newsletter > .alert-danger').append('</div>');
+                    //clear all fields
+                    $('#mc-embedded-subscribe-form').trigger("reset");
                 },
             })
         },
