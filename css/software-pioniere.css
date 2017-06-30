@@ -26,6 +26,10 @@
 	display: inline;
 }
 
+.navbar-brand{
+	font-size: 100%;
+}
+
 /* Social Button */
 .social-colored li a i.icon-xing {
 	background-color: #026466;
