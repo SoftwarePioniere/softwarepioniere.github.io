@@ -45,7 +45,7 @@
 
 /* Navigation */
 /*------------*/
-.fixed-navigation .navbar-default.navbar-bg {
+.fixed-navigation .navbar-default.navbar-bg, .navbar-default {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -78,6 +78,13 @@
 	text-decoration: underline;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
 
 /* Social Button */
 /*---------------*/
