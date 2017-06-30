@@ -1,161 +1,197 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Software Pioniere</title>
+        <title>Codeon - Agency</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bootstrap css-->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
         <!--custom css-->
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <!--flex slider css-->
-        <link href="css/flexslider.css" rel="stylesheet">
-        <!--google web fonts css-->
-        
-        
-        <!-- icons css-->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <!--animated css-->
-        <link href="css/animate.css" rel="stylesheet">
+        <style type="text/css">
+           
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                color: #333;
+                background-color: #fff;
+                -webkit-font-smoothing: antialiased;
+            }
+            /*typography bootstrap overrides*/
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: 500;
+                line-height: 1;
+            }
+            .header{
+                padding: 50px 0;
+                background-color: #eff2f3;
+                margin-bottom: 50px;
+            }
+            .header h1{
+                margin-bottom: 15px;
+                color:#000;
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .header h4{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color:#333;
+            }
+            .demo-content h4{
+                text-transform: uppercase;
+                position: relative;
+                margin-bottom: 50px;
+            }
+            .demos-inner a{
+                text-decoration: none;
+                display: block;
+                padding: 20px;
+                background-color: #fff;
+                transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                margin-bottom: 30px;
+                position: relative;
+                border: 1px dashed transparent;
+            }
+            .label-new{
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top:0;
+                background-color:#00A8FF;
+                padding: 3px 5px;
+                color:#fff !important;
+                font-size:13px!important;
+                margin: 0px !important;
+            }
+            .demos-inner a:hover{
+                   border-color:  #00A8FF;
+            }
+            .demos-inner a:hover, .demos-inner:focus{
+                text-decoration: none;
+            }
+            .demos-inner span{
+                display: block;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 16px;
+                margin-top: 20px;
+                color:#777;
+            }
+            .btn-purchase{
+                padding: 15px 50px;
+                color:#000;
+                background-color: #f5f5f5;
+                margin: 40px 0;
+                text-transform: uppercase;
+                display: inline-block;
+                font-weight: 600;
+                  box-shadow: 4px 8px 13px -9px rgba(0,0,0,0.3);
+                  -webkit-box-shadow: 4px 8px 13px -9px rgba(0,0,0,0.3);
+            }
+            .footer span{
+                display: block;
+                font-weight: 600;
+                text-transform: uppercase;
+                color:#999;
+                font-size: 12px;
+                padding-bottom: 40px;
+            }
+        </style>
         <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body class="soon-bg">
 
-        <div class="container soon">
-            <div class="row">
-                <div class="col-md-12 text-center animated fadeInDown">
-                    <h1>Software Pioniere</h1>
-                    <h2>Software mit Leidenschaft aus OWL</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center animated fadeInUp">
-                    <div id="defaultCountdown"></div><!--countdown-->
-                </div>
-            </div>
-        </div><!--countdown-->
-        <!--
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 text-center animated fadeInLeft">
-                    <form role="form" method="post" action="#" class="subscribe-form  codeon-newsletter">
-                        <div class="form-group">
-                             <input type="text" class="form-control" name="email" placeholder="Enter email to subscribe">
-                        </div>
-                        <button class="btn-theme-color btn btn-lg" name="submit" type="submit">Notify me</button>
-                    </form>
-                </div>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container text-center">
+                <h1>Codeon</h1>
+                <h4>Clean, Awesome, Multipurpose Responsive<br> One Page HTML5 Template</h4>
             </div>
         </div>
-        -->
-        <!--
-        <div class="footer-soon">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <ul class="list-inline social-colored animated fadeInRight"> 
-                            <li><a href="#"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus icon-plus" data-toggle="tooltip" title="" data-original-title="Google pluse" data-placement="top"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin icon-in" data-toggle="tooltip" title="" data-original-title="Linkedin" data-placement="top"></i></a></li>
-
-                        </ul>
-                        <p class="animated fadeInUp">Theme by Design_mylife</p>
+        <div class="demo-content">
+            <div class="container text-center">
+                   <h4>Choose your Demo</h4>
+                  
+            </div>
+            
+            <div class="demos-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <a href="demo-default.html" target="_blank">
+                                <img src="img/demo-img/default.png" class="img-responsive" alt="">
+                                <span>Slider Revolution</span>
+                            </a>
+                        </div>
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="fullscreen-parallax-bg-demo.html" target="_blank">
+                                <img src="img/demo-img/parallax.png" class="img-responsive" alt="">
+                                <span>Parallax Slider</span>
+                            </a>
+                        </div>
+                           <div class="col-sm-4 text-center">
+                            <a href="demo-video-bg.html" target="_blank">
+                                <img src="img/demo-img/youtube.png" class="img-responsive" alt="">
+                                <span>You-tube Video background</span>
+                            </a>
+                        </div>
+                    </div>
+                   
+                      <div class="row">
+                     
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="transparent-header-demo.html" target="_blank">
+                                <img src="img/demo-img/trans-header.png" class="img-responsive" alt="">
+                                <span>Transparent Header</span>
+                            </a>
+                        </div>
+                        
+                          <div class="col-sm-4 text-center">
+                            <a href="fullscreen-nav.html" target="_blank">
+                                <img src="img/demo-img/full-menu.png" class="img-responsive" alt="">
+                                <span>Full screen navigation</span>
+                            </a>
+                        </div>
+                           <div class="col-sm-4 text-center">
+                            <a href="soon.html" target="_blank">
+                                <img src="img/demo-img/coming.png" class="img-responsive" alt="">
+                                <span>Coming soon</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                         <div class="col-sm-4 text-center">
+                            <a href="#">
+                                <img src="img/demo-img/vsoon.png" class="img-responsive" alt="">
+                                <span>very soon</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
+               
             </div>
         </div>
-        -->
-            <!--back to top-->
-        <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
-        <!--back to top end-->
-
-        <!--script files-->
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-         <script src="js/jquery-migrate.min.js"></script>
-        <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        
-        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-        <script src="js/wow.min.js" type="text/javascript"></script>
-        <script src="js/jquery.sticky.js" type="text/javascript"></script>        
-        <script src="js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-        <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
-        <!--new version v1.1 plugins-->
-        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-        <script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/easypiechart.js"></script>
-        <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
-        <script src="js/jquery.countdown.js" type="text/javascript"></script>
-        <script src="js/contact_me.js" type="text/javascript"></script>
-        <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
-        <script src="js/pace.min.js" type="text/javascript"></script>
-        <!--countdown coming soon-->
-        <script src="js/jquery.countdown.js" type="text/javascript"></script>
-        <script src="js/moment-with-locales.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            $(function() {
-                var austDay = moment('2017-07-01 00:00:00', 'YYYY-MM-DD HH:mm:ss').toDate();
-                $('#defaultCountdown').countdown({until: austDay});
-
-                $('#year').text(austDay.getFullYear());
-            });
-        </script>
-      <script type="text/javascript">
-        
-
-//Newsletter
-// Checking subcribe form when focus event
-            $('.codeon-newsletter input[type="text"], .codeon-newsletter input[type="email"]').live('focus keypress', function () {
-                var $email = $(this);
-                if ($email.hasClass('error')) {
-                    $email.val('').removeClass('error');
-                }
-                if ($email.hasClass('success')) {
-                    $email.val('').removeClass('success');
-                }
-            });
-            // Subscribe form when submit to database
-            $('.codeon-newsletter').submit(function () {
-                var $email = $(this).find('input[name="email"]');
-                var $submit = $(this).find('input[name="submit"]');
-                var email_pattern = /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i;
-                if (email_pattern.test($email.val()) === false) {
-                    $email.val('Please enter a valid email address!').addClass('error');
-                } else {
-                    var submitData = $(this).serialize();
-                    $email.attr('disabled', 'disabled');
-                    $submit.attr('disabled', 'disabled');
-                    $.ajax({// Subcribe process with AJAX
-                        type: 'POST',
-                        url: 'mailchimp/process-subscribe.php',
-                        data: submitData + '&action=add',
-                        dataType: 'html',
-                        success: function (msg) {
-                            if (parseInt(msg, 0) !== 0) {
-                                var msg_split = msg.split('|');
-                                if (msg_split[0] === 'success') {
-                                    $submit.removeAttr('disabled');
-                                    $email.removeAttr('disabled').val(msg_split[1]).addClass('success');
-                                } else {
-                                    $submit.removeAttr('disabled');
-                                    $email.removeAttr('disabled').val(msg_split[1]).addClass('error');
-                                }
-                            }
-                        }
-                    });
-                }
-
-                return false;
-            });
-        </script>
-
+         <div class="container text-center">
+                    <a href="#" class="btn btn-purchase">Buy Codeon Now</a>
+                </div>
+        <div class="container footer text-center">
+            <span>&copy; 2017. Powered by bootstrap. Designed by Design_mylife </span>
+        </div>
     </body>
 </html>
