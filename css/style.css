@@ -77,7 +77,7 @@ a:active,
 a:hover,
 a:focus {
   outline: 0;
-  color: #9eca45;
+  color: #41508D;
   text-decoration: none;
 }
 
@@ -250,7 +250,7 @@ input[type="color"]:focus,
 }
 
 .btn-theme-color {
-  background-color: #9eca45;
+  background-color: #41508D;
   color: #fff;
 }
 
@@ -348,7 +348,7 @@ bootstrap navbar overrides
   font-weight: 400;
 }
 .navbar-default .navbar-nav > li span:hover {
-  color: #9eca45;
+  color: #41508D;
 }
 
 .navbar-default .navbar-nav > li.nav-social a {
@@ -356,17 +356,17 @@ bootstrap navbar overrides
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #9eca45 !important;
+  color: #41508D !important;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #9eca45 !important;
+  color: #41508D !important;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #9eca45 !important;
+  color: #41508D !important;
   background-color: transparent;
 }
 
@@ -446,7 +446,7 @@ bootstrap navbar overrides
 
 .dropdown-menu > li > a:hover {
   background-color: transparent;
-  color: #9eca45;
+  color: #41508D;
 }
 
 /****MULTI LEVEL DROPDOWN CSS
@@ -530,7 +530,7 @@ blog section css here
 }
 
 .blog-item-head h3 a:hover {
-  color: #9eca45;
+  color: #41508D;
 }
 
 .blog-item-post-info {
@@ -552,7 +552,7 @@ blog section css here
 }
 
 .blog-item-post-info span a:hover {
-  color: #9eca45;
+  color: #41508D;
 }
 
 .blog-more-desc {
@@ -610,7 +610,7 @@ blog section css here
 }
 
 .more-link a {
-  color: #9eca45;
+  color: #41508D;
   font-weight: 600;
 }
 
@@ -661,7 +661,7 @@ blog section css here
 }
 
 .popu-post-item h5 a {
-  color: #9eca45;
+  color: #41508D;
 }
 
 .popu-post-item span {
@@ -672,7 +672,7 @@ blog section css here
 }
 
 .popu-post-item span a {
-  color: #9eca45;
+  color: #41508D;
 }
 
 .cat-list {
@@ -950,7 +950,7 @@ blog section css here
   padding-top: 25px;
   line-height: 20px;
   font-weight: 400;
-  color: #9eca45;
+  color: #41508D;
 }
 
 .countdown_section {
@@ -959,7 +959,7 @@ blog section css here
   height: 120px;
   padding-top: 13px;
   margin: 10px;
-  color: #9eca45;
+  color: #41508D;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
@@ -1001,7 +1001,7 @@ blog section css here
 }
 
 #home.home-video {
-  background-color: #9eca45;
+  background-color: #41508D;
   background-image: none;
 }
 
@@ -1074,7 +1074,7 @@ About section
 }
 
 .about-box-icon i {
-  color: #9eca45;
+  color: #41508D;
   font-size: 44px;
 }
 
@@ -1098,7 +1098,7 @@ About section
 }
 
 .about-more-info p:first-letter {
-  color: #9eca45;
+  color: #41508D;
   font-weight: 400;
   font-size: 20px;
 }
@@ -1131,7 +1131,7 @@ h3.heading-progress {
 
 .progress-bar {
   line-height: 10px;
-  background: #9eca45;
+  background: #41508D;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -ms-box-shadow: none;
@@ -1228,7 +1228,7 @@ h3.heading-progress {
 bootstrap overrides badge and pagination
 ****************************************/
 .badge {
-  background-color: #9eca45;
+  background-color: #41508D;
   font-weight: 400;
 }
 
@@ -1243,7 +1243,7 @@ bootstrap overrides badge and pagination
   line-height: 1.42857143;
   text-decoration: none;
   color: #fff;
-  background-color: #9eca45;
+  background-color: #41508D;
   border: 1px solid #077aaa;
   margin-left: -1px;
 }
@@ -1316,12 +1316,12 @@ our work section
 }
 
 .filter li a.active {
-  background-color: #9eca45;
+  background-color: #41508D;
   color: #fff;
 }
 
 .filter li a:hover {
-  background-color: #9eca45;
+  background-color: #41508D;
   color: #fff;
 }
 
@@ -1418,7 +1418,7 @@ our work section
 }
 
 .person-desc em {
-  color: #9eca45;
+  color: #41508D;
   font-style: normal;
   font-size: 12px;
 }
@@ -1430,13 +1430,13 @@ our work section
 }
 
 .tooltip.top .tooltip-inner {
-  background-color: #9eca45;
+  background-color: #41508D;
   padding: 6px 12px;
   font-size: 13px;
 }
 
 .tooltip.top .tooltip-arrow {
-  border-top-color: #9eca45;
+  border-top-color: #41508D;
 }
 
 /**********************contact section
@@ -1460,7 +1460,7 @@ our work section
 .contact-col i {
   font-size: 45px;
   margin-bottom: 15px;
-  color: #9eca45;
+  color: #41508D;
 }
 
 .contact-col p {
@@ -1474,7 +1474,7 @@ our work section
 }
 
 .contact-col a:hover{
-  color: #9eca45;
+  color: #41508D;
 }
 
 
@@ -1520,9 +1520,9 @@ our work section
 }
 
 .price-popular .pricing-wrapper-inner h2 {
-  background-color: #9eca45;
+  background-color: #41508D;
   color: #fff;
-  border-color: #9eca45;
+  border-color: #41508D;
 }
 
 .pricing-wrapper-inner {
@@ -1538,7 +1538,7 @@ our work section
 .pricing-wrapper-inner h2 {
   margin: 0;
   padding: 25px;
-  color: #9eca45;
+  color: #41508D;
   font-size: 4em;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -1701,7 +1701,7 @@ iframe {
 .services-section-2 {
   background-image: url(../img/bg-3.jpg);
   padding: 90px 0;
-  background-color: #9eca45;
+  background-color: #41508D;
   background-position: center top;
   background-size: cover;
   background-attachment: fixed;
@@ -1880,7 +1880,7 @@ label span {
   right: 0px;
   z-index: 999999;
   display: none;
-  background: #9eca45;
+  background: #41508D;
   opacity: 0.5;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1937,13 +1937,13 @@ label span {
 .codeon-newsletter .form-control:hover, .codeon-newsletter .form-control:focus {
   border: 0px;
   background-color: transparent;
-  border-bottom: 2px solid #9eca45;
+  border-bottom: 2px solid #41508D;
 }
 .codeon-newsletter .form-control.error {
   border-bottom: 2px solid #c7254e;
   color: #c7254e;
 }
 .codeon-newsletter .form-control.success {
-  border-bottom: 2px solid #9eca45;
-  color: #9eca45;
+  border-bottom: 2px solid #41508D;
+  color: #41508D;
 }
