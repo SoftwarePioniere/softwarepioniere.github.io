@@ -43,3 +43,8 @@
 .technologie img{
 	padding:5px;
 }
+
+
+#impressum .boxshadow {
+	/*box-shadow: none;*/
+}
