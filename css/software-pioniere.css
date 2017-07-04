@@ -1,120 +1,23 @@
-/*
-* 	Software Pioniere GmbH & Co. KG
-*	http://www.SoftwarePioniere.de
-*	info@SoftwarePioniere.de
-*/
-
-
-/* team */
-/*------*/
-.person{
-	text-align: center;
-}
-
-.person img{
-	border-radius: 5% 50% 50% 5%;
-	width: 14em;
-}
-
-.background-strategie{
-	background-image: url('../img/bg-1.jpg');
-}
-
-.background-newsletter{
-	background-image: url('../img/typing-cover.jpg');
-}
-
-.wrapper h2{
-	display: inline;
-}
-
-
-/* Referenzen */
-/*------------*/
-.referenzen {
-	background-image: url(../img/typing-cover.jpg);
-}
-
-
-/* Fun Facts */
-/*-----------*/
-.background-fun-facts {
-	background-image: url(../img/star-cover.jpg);
-}
-
-
-/* Navigation */
-/*------------*/
-.fixed-navigation .navbar-default.navbar-bg, .navbar-default {
-	background-color: rgba(0, 0, 0, 0.9);
-}
-
-.navbar-default .navbar-brand {
-	font-size: 150%;
-}
-.fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > a, .fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > span {
-	color: #FFF;
-}
-
-.fixed-navigation .navbar-default.navbar-bg .navbar-brand {
-	color: #FFF !important;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	color: #fff !important;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #fff !important;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	color: #fff !important;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #fff;
-}
-
-.navbar-default .navbar-brand {
-	color: #fff !important;
-}
-
-/* Social Button */
-/*---------------*/
-.social-colored li a i.icon-xing {
-	background-color: #026466;
-	/*color: #cfdc00;*/
-}
-
-.social-colored li a i.icon-github {
-	background-color: #333;
-}
-
-.technologie div {
-	height: auto;
-	vertical-align: bottom;
-}
-.technologie img{
-	padding:5px;
-}
-
-
-#impressum .boxshadow {
-	/*box-shadow: none;*/
-}
-
-.contact-col i , .contact-col p , .contact-col p a{
-	color: #9e9e9e;
-}
-
-.contact-col p a:hover{
-	color: #9e9e9e;
-	cursor: pointer;
-}
+.person{text-align:center;}
+.person img{border-radius:5% 50% 50% 5%;width:14em;}
+.background-strategie{background-image:url('../img/bg-1.jpg');}
+.background-newsletter{background-image:url('../img/typing-cover.jpg');}
+.wrapper h2{display:inline;}
+.referenzen{background-image:url(../img/typing-cover.jpg);}
+.background-fun-facts{background-image:url(../img/star-cover.jpg);}
+.fixed-navigation .navbar-default.navbar-bg, .navbar-default{background-color:rgba(0, 0, 0, 0.9);}
+.navbar-default .navbar-brand{font-size:150%;}
+.fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > a, .fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > span{color:#FFF;}
+.fixed-navigation .navbar-default.navbar-bg .navbar-brand{color:#FFF !important;}
+.navbar-default .navbar-nav > li > a:hover{color:#fff !important;background-color:transparent;text-decoration:underline;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color:#fff !important;background-color:transparent;text-decoration:underline;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{color:#fff !important;background-color:transparent;text-decoration:underline;}
+.navbar-default .navbar-nav > li > a{color:#fff;}
+.navbar-default .navbar-brand{color:#fff !important;}
+.social-colored li a i.icon-xing{background-color:#026466;}
+.social-colored li a i.icon-github{background-color:#333;}
+.technologie div{height:auto;vertical-align:bottom;}
+.technologie img{padding:5px;}
+#impressum .boxshadow{}
+.contact-col i , .contact-col p , .contact-col p a{color:#9e9e9e;}
+.contact-col p a:hover{color:#9e9e9e;cursor:pointer;}
