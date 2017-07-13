@@ -60,3 +60,7 @@ Wir unterstützen Sie vom Konzept bis zur Umsetzung und dem späteren Support, m
 Sie möchten einzelne Prozesse im Unternehmen digitalisieren oder Vorhandene optimieren, ohne vorhandene gut funktionierende abzulösen zu müssen? Oder Hierbei können wir Ihnen helfen.
 
 
+BLOG EINTRÄGE
+-------------
+Warum Individualsoftware wichtig ist?
+* Durch Standardsofwtare verliert das Unternehmen ggf. Alleinstellungsmerkmale die das Unternehmen bislang für die Kunden Interessant gemacht haben. Durch den ausschließlichen Einsatz von Standardsoftware werden Firmen austauschbarer für aktuelle und zukünftige Kunden.
