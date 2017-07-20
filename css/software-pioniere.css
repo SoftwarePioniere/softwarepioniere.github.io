@@ -1,7 +1,9 @@
 .person{text-align:center;}
 .person img{border-radius:5% 50% 50% 5%;width:14em;}
-.background-strategie{background-image:url('../img/bg-1.jpg');}
-.background-newsletter{background-image:url('../img/typing-cover.jpg');}
+.services-section-2{background-image:url(../img/dark-bg-4.jpg);};
+#vier-schritte .ereignisse{background-image:url(../img/dark-bg-3.jpg);};
+.background-strategie{background-image:url(../img/bg-1.jpg);}
+.background-newsletter{background-image:url(../img/blog-list2.jpg);}
 .wrapper h2{display:inline;}
 .referenzen{background-image:url(../img/typing-cover.jpg);}
 .background-fun-facts{background-image:url(../img/star-cover.jpg);}
@@ -18,6 +20,13 @@
 .social-colored li a i.icon-github{background-color:#333;}
 .technologie div{height:auto;vertical-align:bottom;}
 .technologie img{padding:5px;}
-#impressum .boxshadow{}
 .contact-col i , .contact-col p , .contact-col p a{color:#9e9e9e;}
 .contact-col p a:hover{color:#9e9e9e;cursor:pointer;}
+
+#vier-schritte > div.services-section-2.ereignisse.parallax{
+    background-image:url(../img/dark-bg-3.jpg);
+}
+
+#page-head-bg{
+    background-position-y: -70px;
+}
