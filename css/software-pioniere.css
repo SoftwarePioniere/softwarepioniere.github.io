@@ -1,33 +1,125 @@
-.person{text-align:center;}
-.person img{border-radius:5% 50% 50% 5%;width:14em;}
-.services-section-2{background-image:url(../img/dark-bg-4.jpg);};
-#vier-schritte .ereignisse{background-image:url(../img/dark-bg-3.jpg);};
-.background-strategie{background-image:url(../img/bg-1.jpg);}
-.background-newsletter{background-image:url(../img/blog-list2.jpg);}
-.wrapper h2{display:inline;}
-.referenzen{background-image:url(../img/typing-cover.jpg);}
-.background-fun-facts{background-image:url(../img/star-cover.jpg);}
-.fixed-navigation .navbar-default.navbar-bg, .navbar-default{background-color:rgba(0, 0, 0, 0.9);}
-.navbar-default .navbar-brand{font-size:150%;}
-.fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > a, .fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > span{color:#FFF;}
-.fixed-navigation .navbar-default.navbar-bg .navbar-brand{color:#FFF !important;}
-.navbar-default .navbar-nav > li > a:hover{color:#fff !important;background-color:transparent;text-decoration:underline;}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color:#fff !important;background-color:transparent;text-decoration:underline;}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{color:#fff !important;background-color:transparent;text-decoration:underline;}
-.navbar-default .navbar-nav > li > a{color:#fff;}
-.navbar-default .navbar-brand{color:#fff !important;}
-.social-colored li a i.icon-xing{background-color:#026466;}
-.social-colored li a i.icon-github{background-color:#333;}
-.technologie div{height:auto;vertical-align:bottom;}
-.technologie img{padding:5px;}
-.contact-col i , .contact-col p , .contact-col p a{color:#9e9e9e;}
-.contact-col p a:hover{color:#9e9e9e;cursor:pointer;}
-
-#vier-schritte > div.services-section-2.ereignisse.parallax{
-    background-image:url(../img/dark-bg-3.jpg);
+.person {
+    text-align: center;
 }
 
-#page-head-bg{
+.person img {
+    border-radius: 5% 50% 50% 5%;
+    width: 14em;
+}
+
+.services-section-2 {
+    background-image: url(../img/dark-bg-4.jpg);
+    width: 100%;
+    padding: 120px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#vier-schritte .ereignisse {
+    background-image: url(../img/dark-bg-3.jpg);
+    width: 100%;
+    padding: 120px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-strategie {
+    background-image: url(../img/bg-1.jpg);
+}
+
+.background-newsletter {
+    background-image: url(../img/blog-list2.jpg);
+}
+
+.wrapper h2 {
+    display: inline;
+}
+
+.referenzen {
+    background-image: url(../img/typing-cover.jpg);
+}
+
+.background-fun-facts {
+    background-image: url(../img/star-cover.jpg);
+}
+
+.fixed-navigation .navbar-default.navbar-bg, .navbar-default {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 150%;
+}
+
+.fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > a, .fixed-navigation .navbar-default.navbar-bg .navbar-nav > li > span {
+    color: #FFF;
+}
+
+.fixed-navigation .navbar-default.navbar-bg .navbar-brand {
+    color: #FFF !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff !important;
+}
+
+.social-colored li a i.icon-xing {
+    background-color: #026466;
+}
+
+.social-colored li a i.icon-github {
+    background-color: #333;
+}
+
+.technologie div {
+    height: auto;
+    vertical-align: bottom;
+}
+
+.technologie img {
+    padding: 5px;
+}
+
+.contact-col i, .contact-col p, .contact-col p a {
+    color: #9e9e9e;
+}
+
+.contact-col p a:hover {
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+#vier-schritte > div.services-section-2.ereignisse.parallax {
+    background-image: url(../img/dark-bg-3.jpg);
+    width: 100%;
+    padding: 120px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#page-head-bg {
     background-position-y: -70px;
 }
 
