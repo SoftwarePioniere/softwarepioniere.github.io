@@ -126,3 +126,10 @@
 input#subscribe-email.form-control, input#subscribe-email {
     width: 455px;
 }
+
+.alert-danger {
+    /* color: #a94442; */
+    color: rgba(255, 5, 0, 0.77);
+    background-color: rgba(242, 222, 222, 0);
+    border: none; 
+}
