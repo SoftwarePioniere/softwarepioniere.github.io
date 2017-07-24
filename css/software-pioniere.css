@@ -30,3 +30,7 @@
 #page-head-bg{
     background-position-y: -70px;
 }
+
+input#subscribe-email.form-control, input#subscribe-email {
+    width: 455px;
+}
