@@ -18,11 +18,26 @@ $(function () {
         submitSuccess: function ($form, event) {
             event.preventDefault();
             var email = $("input#subscribe-email").val();
+            $('#newsletter-input').addClass( "hide" );
+            $('#newsletter-loader').removeClass( "hide" );
             $.ajax({
                 url: "https://softwarepioniere-functions.azurewebsites.net/api/NewsletterAnmeldung?code=wybtF1irV0OagSTOC2Fe8H4vWgl6Wkf678If5nUiPfALEQdViJlnMg==&email=" + email, method: "POST", dataType: "json", data: {}, cache: false,
                 success: function () { 
                     $('#success-newsletter').html("<div class='alert alert-success'>"); 
-                    $('#success-newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>"); $('#success-newsletter > .alert-success').append("<strong>Ihre E-Mail Adresse wurde erfolgreich für unseren Newsletter eingetragen.</strong>"); $('#success-newsletter > .alert-success').append('</div>'); $('#mc-embedded-subscribe-form').trigger("reset"); }, error: function () { $('#success-newsletter').html("<div class='alert alert-danger'>"); $('#success-newsletter > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>"); $('#success-newsletter > .alert-danger').append("<strong>Ihre Eintragung zum Newsletter konnte nicht durchgeführt werden. Probieren Sie es bitte später noch einmal.</strong>"); $('#success-newsletter > .alert-danger').append('</div>'); $('#mc-embedded-subscribe-form').trigger("reset"); },
+                    $('#success-newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>"); 
+                    $('#success-newsletter > .alert-success').append("<strong>Ihre E-Mail Adresse wurde erfolgreich für unseren Newsletter eingetragen.</strong>"); 
+                    $('#success-newsletter > .alert-success').append('</div>'); $('#mc-embedded-subscribe-form').trigger("reset"); 
+                    $('#newsletter-input').removeClass( "hide" );
+                    $('#newsletter-loader').addClass( "hide" );
+                }, 
+                error: function () { 
+                    $('#success-newsletter').html("<div class='alert alert-danger'>"); 
+                    $('#success-newsletter > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>"); 
+                    $('#success-newsletter > .alert-danger').append("<strong>Ihre Eintragung zum Newsletter konnte nicht durchgeführt werden. Probieren Sie es bitte später noch einmal.</strong>"); 
+                    $('#success-newsletter > .alert-danger').append('</div>'); $('#mc-embedded-subscribe-form').trigger("reset"); 
+                    $('#newsletter-input').removeClass( "hide" );
+                    $('#newsletter-loader').addClass( "hide" );
+                },
             })
         }, filter: function () { return $(this).is(":visible"); },
     }); $("a[data-toggle=\"tab\"]").click(function (e) { e.preventDefault(); $(this).tab("show"); });

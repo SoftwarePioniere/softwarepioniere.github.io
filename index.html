@@ -662,7 +662,7 @@
 										<div style="max-width:500px;text-align: center;padding-bottom:20px;">
 											In unregelmäßigen Abständen werden wir über unseren Newsletter aktuelle Neuigkeiten rund um eingesetze Technologien und Methoden, aktuelle Projekte und Lösungsansätze, sowie alles rund um Individualsoftware berichten.
 										</div> 
-										<div class="input-group">
+										<div id="newsletter-input" class="input-group">
 											<label class="sr-only" for="subscribe-email">Email Adresse</label>
 											<input type="email" class="form-control" id="subscribe-email" placeholder="Deine Email Adresse" value="" name="EMAIL" required style="width: 455px;">
 											<span class="input-group-btn">
@@ -670,8 +670,9 @@
 													class="btn btn-theme-color btn-lg"
 													value="Subscribe" name="subscribe"
 													id="mc-embedded-subscribe">Anmelden</button>
-									</span>
+											</span>
 										</div>
+										<div id="newsletter-loader" class="loader hide"></div>
 										<div id="success-newsletter"></div>
 
 										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_73a36ff784828d42a0acf27e0_90389308b6" tabindex="-1" id="b_73a36ff784828d42a0acf27e0_90389308b6"
