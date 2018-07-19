@@ -180,6 +180,10 @@ input[type="color"]:focus,
 .footer-soon p{margin:30px 0;}
 #home.full-screen-dem{background-color:#444;background-position:center 0%;background-size:auto;background-repeat:repeat;background-attachment:fixed;background-image:url(../img/bg-1.jpg);display:table;width:100%;height:100%;min-height:100%;overflow-x:hidden;overflow-y:hidden;vertical-align:middle;z-index:1;}
 #home.home-video{background-color:#41508D;background-image:none;}
+
+#orga-app.full-screen-dem{background-color:#444;background-position:center 0%;background-size:cover;background-repeat:repeat;background-attachment:fixed;background-image:url(../img/orga-app/loginbackground.png);display:table;width:100%;height:100%;min-height:100%;overflow-x:hidden;overflow-y:hidden;vertical-align:middle;z-index:1;}
+#orga-app.home-video{background-color:#41508D;background-image:none;}
+
 .parallax-overlay{position:absolute;left:0;top:0;width:100%;height:100%;background-image:url(../img/pattern.png);background-repeat:repeat;background-color:rgba(44, 62, 80, 0.3);z-index:2;}
 .home-content{position:relative;display:table-cell;vertical-align:middle;z-index:3;}
 h1.slide-logo{color:#fff;margin-top:0;margin-bottom:40px;font-weight:300;text-transform:uppercase;}
@@ -326,3 +330,15 @@ label span{color:red;margin-left:5px;}
 .codeon-newsletter .form-control:hover, .codeon-newsletter .form-control:focus{border:0px;background-color:transparent;border-bottom:2px solid #41508D;}
 .codeon-newsletter .form-control.error{border-bottom:2px solid #c7254e;color:#c7254e;}
 .codeon-newsletter .form-control.success{border-bottom:2px solid #41508D;color:#41508D;}
+
+ion-icon {
+    font-size: 24px;
+}
+
+div > svg > path,
+icon-inner svg {
+    stroke: none !important;
+    fill: black !important;
+    color: #000 !important;
+    font-size: 24px;
+}

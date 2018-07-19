@@ -31,6 +31,15 @@
     background-image: url(../img/blog-list2.jpg);
 }
 
+.background-dfl {
+    background-image: url(../img/orga-app/orga-app-3-devices.jpg);
+    margin-top: 100px;
+}
+
+.background-statement {
+    background-image: url(../img/orga-app/orga-app-handy.jpg);
+}
+
 .wrapper h2 {
     display: inline;
 }
@@ -151,4 +160,9 @@ input#subscribe-email.form-control, input#subscribe-email {
 
 .hide {
     display: none;
+}
+
+.orga-app-titel{
+    color: #39b54a;
+    padding-bottom: 50px;
 }
