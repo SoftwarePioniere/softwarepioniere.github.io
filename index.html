@@ -1218,6 +1218,11 @@
 						&& element.href.indexOf('https://fonts.googleapis.com/css?family=Roboto') === 0) {
 						return true;
 					}
+					// roboto font download
+					if (element.href
+						&& element.href.indexOf('https://fonts.googleapis.com/css?family=Google') === 0) {
+						return true;
+					}
 					// roboto style elements
 					if (element.tagName.toLowerCase() === 'style'
 						&& element.styleSheet
