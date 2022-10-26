@@ -18,8 +18,71 @@
 GOOGLE FONT
 ============================================================ */
 
-@import url(http://fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/roboto-v30-latin-300.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/roboto-v30-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/roboto-v30-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-italic - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/roboto-v30-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/roboto-v30-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/roboto-v30-latin-italic.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/roboto-v30-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/roboto-v30-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/roboto-v30-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/roboto-v30-latin-500.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/roboto-v30-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/roboto-v30-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/roboto-v30-latin-700.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/roboto-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/roboto-v30-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
 
 
 
@@ -42,7 +105,7 @@ padding-bottom: 60px;
 }
 
 .header {
-font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 padding-bottom: 40px;
 text-transform: uppercase;
 }
@@ -119,7 +182,7 @@ color: #FFF;
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 color: #fff;
 font-weight: 900;
-font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -156,7 +219,7 @@ padding: 50px 20px 5px 50px;
 
 #carousel-slider h3 {
 line-height: 50px;
-font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 #carousel-slider p {
@@ -189,7 +252,7 @@ background-color: rgba(255, 255, 255, 0.20);
 }
 
 #services h3 {
-font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 #services .services-wrapper i {
