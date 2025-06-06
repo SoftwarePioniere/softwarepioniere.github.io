@@ -12,3 +12,12 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://www.softwarepioniere.de/sitemap.xml
+
+Redirect 301 /agbs.html /agb
+Redirect 301 /datenschutz.html /datenschutz
+Redirect 301 /impressum.html /impressum
+Redirect 301 /orga-app.html https://www.orgarena.de
+Redirect 301 /demo1.html https://www.orgarena.de
+Redirect 301 /demo2.html https://www.orgarena.de
